@@ -1,0 +1,37 @@
+oid main (){
+  bike().engine();
+    print(bike().color);
+  cycle().paddle();
+  bike().twowheel();
+}
+
+
+class vehicle
+{
+ String color = "red";
+  void twowheel(){
+    print("Twowheels");
+     
+  }
+
+  
+}
+
+
+
+class car extends vehicle
+{
+void engine(){
+print("engine");  
+}  
+  
+}
+
+class cycle extends vehicle
+{
+  void paddle(){
+  print("paddle");  
+  }
+  
+  
+}

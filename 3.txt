@@ -1,0 +1,16 @@
+void main() {
+  name obj1 = name();
+  obj1.function();
+  obj1.parameterFunction("Muhammad Yahya");
+
+}
+
+class name {
+  function() {
+   
+  }
+
+  parameterFunction(String obj) {
+    print("My name is ${obj}");
+  }
+}
